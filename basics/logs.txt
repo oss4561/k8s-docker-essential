@@ -1,0 +1,45 @@
+
+==> Audit <==
+|-----------|---------------|----------|----------|---------|---------------------|---------------------|
+|  Command  |     Args      | Profile  |   User   | Version |     Start Time      |      End Time       |
+|-----------|---------------|----------|----------|---------|---------------------|---------------------|
+| start     |               | minikube | debasmit | v1.36.0 | 29 Aug 25 21:07 UTC |                     |
+| start     |               | minikube | debasmit | v1.36.0 | 29 Aug 25 21:08 UTC |                     |
+| start     |               | minikube | debasmit | v1.36.0 | 29 Aug 25 21:10 UTC |                     |
+| start     |               | minikube | debasmit | v1.36.0 | 01 Sep 25 11:16 UTC |                     |
+| dashboard | --url         | minikube | debasmit | v1.36.0 | 01 Sep 25 11:24 UTC |                     |
+| start     | --driver=none | minikube | debasmit | v1.36.0 | 01 Sep 25 11:24 UTC |                     |
+| start     |               | minikube | debasmit | v1.36.0 | 01 Sep 25 11:32 UTC |                     |
+| delete    | --all         | minikube | debasmit | v1.36.0 | 01 Sep 25 11:40 UTC | 01 Sep 25 11:40 UTC |
+| start     | --driver=none | minikube | debasmit | v1.36.0 | 01 Sep 25 11:41 UTC |                     |
+| start     | --driver=none | minikube | debasmit | v1.36.0 | 01 Sep 25 11:42 UTC |                     |
+| delete    | --all         | minikube | debasmit | v1.36.0 | 01 Sep 25 11:46 UTC | 01 Sep 25 11:46 UTC |
+|-----------|---------------|----------|----------|---------|---------------------|---------------------|
+
+
+==> Last Start <==
+Log file created at: 2025/09/01 11:42:47
+Running on machine: debasmit
+Binary: Built with gc go1.24.0 for linux/arm64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0901 11:42:47.694048   60501 out.go:345] Setting OutFile to fd 1 ...
+I0901 11:42:47.694159   60501 out.go:397] isatty.IsTerminal(1) = true
+I0901 11:42:47.694161   60501 out.go:358] Setting ErrFile to fd 2...
+I0901 11:42:47.694162   60501 out.go:397] isatty.IsTerminal(2) = true
+I0901 11:42:47.694252   60501 root.go:338] Updating PATH: /home/debasmit/.minikube/bin
+I0901 11:42:47.694440   60501 out.go:352] Setting JSON to false
+I0901 11:42:47.695319   60501 start.go:130] hostinfo: {"hostname":"debasmit","uptime":2100,"bootTime":1756724868,"procs":232,"os":"linux","platform":"ubuntu","platformFamily":"debian","platformVersion":"24.04","kernelVersion":"6.8.0-78-generic","kernelArch":"aarch64","virtualizationSystem":"","virtualizationRole":"guest","hostId":"6b11c0b6-66fd-48db-af8a-6d16df0d51d0"}
+I0901 11:42:47.695372   60501 start.go:140] virtualization:  guest
+I0901 11:42:47.697124   60501 out.go:177] 😄  minikube v1.36.0 on Ubuntu 24.04 (arm64)
+I0901 11:42:47.698053   60501 notify.go:220] Checking for updates...
+I0901 11:42:47.698095   60501 driver.go:404] Setting default libvirt URI to qemu:///system
+I0901 11:42:47.706289   60501 out.go:177] ✨  Using the none driver based on user configuration
+I0901 11:42:47.707203   60501 start.go:304] selected driver: none
+I0901 11:42:47.707207   60501 start.go:908] validating driver "none" against <nil>
+I0901 11:42:47.707212   60501 start.go:919] status for none: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:}
+I0901 11:42:47.707227   60501 start.go:1737] auto setting extra-config to "kubelet.resolv-conf=/run/systemd/resolve/resolv.conf".
+I0901 11:42:47.708170   60501 out.go:201] 
+W0901 11:42:47.708755   60501 out.go:270] ❌  Exiting due to GUEST_MISSING_CONNTRACK: Sorry, Kubernetes 1.33.1 requires crictl to be installed in root's path
+I0901 11:42:47.709624   60501 out.go:201] 
+
+
