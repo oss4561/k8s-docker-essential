@@ -5,3 +5,4 @@ Minikube Dependency:
 K8s handbook: 
 - https://drive.google.com/file/d/1Ah6hU17OVM3pUgRx6LbnFdf9CjAlY9Kn/view?usp=drive_link
 - https://drive.google.com/uc?export=view&id=1Ah6hU17OVM3pUgRx6LbnFdf9CjAlY9Kn
+- https://storage.googleapis.com/k8s-study/k8s.pdf
